@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset de elementos específicos */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, figure, figcaption, blockquote, pre, form, fieldset, legend, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer estilos base */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Añadir estilos personalizados a partir de aquí */
+/* css para la img */
+.container-1{
+    width: 100%;
+    padding: 4% 4% 0% 4%;
+    text-align: center;
+}
+
+img {
+    width: 90%;
+    height: 80%;
+    border-radius: 2%;
+}
+/*  RECETA PART-1  */
+.container-2{
+    padding: 1% 9% 0 9%;
+}
+
+.titulo-1 {
+    font-family: "Young Serif", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parrafo-1 {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.container-preparacion {
+    background-color: #F5EEF8;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid #F5EEF8;
+    border-radius: 5px;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+}
+
+.titulo-2 {
+    color: rgb(104, 40, 164);
+}
+
+.lista-1 {
+    margin-left: 3%;
+}
+
+.viñeta {
+    margin: 1% 0% 0% 0%;
+}
+
+ /* RECETA PART-2 */
+.titulo-3 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(171, 156, 113);
+}
+
+.lista-2 {
+   margin-left: 2%;
+   font-family: "Familjen Grotesk", sans-serif;
+   font-size: 1.5rem;
+}
+
+.viñeta-2 {
+    margin: 2% 0% 0% 0%;
+}
+
+hr {
+    margin-top: 4%;
+}
+ /* RECETA PART-2 */
+.titulo-4 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(171, 156, 113);
+    margin-top: 2%;
+}
+
+.lista-3 {
+    margin-left: 2%;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+}
+
+.viñeta-3 {
+    margin: 2% 0% 0% 0%;
+    text-align: justify;
+}
+
+/* RECETA PART-3 */
+.titulo-5 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(171, 156, 113);
+    margin-top: 2%;
+}
+
+.parrafo-2 {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2% 0% 4% 0%;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  /* PIE DE PAGINA */
+  .attribution {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2%;
+  }
+
+  a {
+    text-decoration: none;
+  }
